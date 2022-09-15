@@ -1,0 +1,30 @@
+const len=7;
+def main(){
+    output(len);
+    output("\n");
+    var op:int[7];
+    var i:int;
+    i=4;
+    var j:int;
+    var k:int;
+    j=2;
+    k=i+j;
+    output("i=",i," j=",j,   " i+j=",k);
+    output("\n");
+    k=i-j;
+    output("i=",i," j=",j,   " i-j=",k);
+    output("\n");
+    k=i*j;
+    output("i=",i," j=",j,   " i*j=",k);
+    output("\n");
+    k=i/j;
+    output("i=",i," j=",j,   " i/j=",k);
+    output("\n");
+    k=i%j;
+    output("i=",i," j=",j,   " i%j=",k);
+    output("\n");
+    var b:bool;
+    b=i&&j;
+    output("i=",i," j=",j,   " i&&j=",b);
+    output("\n");
+}
